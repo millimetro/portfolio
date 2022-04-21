@@ -32,13 +32,13 @@ body {
 
 a {
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   transition: 250ms ease-in-out;
 }
 
 h1 {
   color: white;
-  font-size: 15em;
+  font-size: 10em;
   transition: 250ms ease-in-out;
 }
 
