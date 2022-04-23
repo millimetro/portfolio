@@ -1,7 +1,8 @@
 <template>
   <div class="main">
     <div class="content">
-      <h1>millimetro_</h1>
+      <!-- <h1>millimetro_</h1> -->
+      <img src="../assets/gifs/milly_rotolo-1.gif" />
       <a href="http://instagram.com/millimetro_" target="blank">instagram</a>
     </div>
   </div>
@@ -26,7 +27,17 @@ body {
   justify-content: center;
   align-items: center;
   .content {
-    text-align: center;
+    // text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+img {
+  max-height: 90vh;
+
+  @media (max-width: 768px) {
+    max-height: 45vh;
   }
 }
 
