@@ -1,7 +1,25 @@
 $blue: blue;
+$red: red;
+$green: #30d158;
 
+$white: white;
+$grey: grey;
+$black: black;
 
 @font-face {
     font-family: 'Mattone-150';
     src: url('@/assets/fonts/Mattone-150.otf');
   }
+
+  body {
+  font-family: "Mattone-150";
+  background-color: $black;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  color: $grey;
+  font-size: 12px;
+}

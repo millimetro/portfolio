@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio',
+    title: 'millimetro_',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,6 +16,14 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js'},
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js'},
+
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.7.4/smooth-scrollbar.js'},
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.8/lottie.min.js'},
     ]
   },
 

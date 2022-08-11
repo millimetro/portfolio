@@ -1,54 +1,23 @@
 <template>
-  <div class="main">
-    <div class="content">
-      <h1>millimetro_</h1>
-      <a href="http://instagram.com/millimetro_" target="blank">instagram</a>
-    </div>
+  <div id="IndexPage">
+    <NavBar />
+    <News />
   </div>
 </template>
 
 <script>
+import NavBar from "../components/NavBar.vue";
+import News from "../components/news.vue";
+
 export default {
   name: "IndexPage",
+  components: {
+    NavBar,
+    News,
+  },
 };
 </script>
 
 <style lang="scss">
 @import "../assets/css/main.scss";
-body {
-  font-family: "Mattone-150";
-  background-color: black;
-}
-
-.main {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .content {
-    text-align: center;
-  }
-}
-
-a {
-  color: white;
-  font-size: 1.5em;
-  transition: 250ms ease-in-out;
-}
-
-h1 {
-  color: white;
-  font-size: 10em;
-  transition: 250ms ease-in-out;
-}
-
-h1:hover {
-  color: blue;
-  transition: 500ms ease-in-out;
-}
-
-a:hover {
-  color: red;
-  transition: 500ms ease-in-out;
-}
 </style>
