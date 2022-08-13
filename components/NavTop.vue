@@ -1,19 +1,7 @@
 <template>
   <div>
     <div class="topNav">
-      <div>
-        <nuxt-link to="#">@millimetro_</nuxt-link>
-      </div>
-
-      <div class="pulsante panic">
-        <nuxt-link to="panic">PANIC MODE</nuxt-link>
-      </div>
-
-      <!-- <div class="pulsante github">
-        <a href="https://github.com/millimetro" target="blank">
-          <img src="../assets/img/github.svg" alt="" class="git" />
-        </a>
-      </div> -->
+      <nuxt-link to="/">@millimetro_</nuxt-link>
 
       <div class="pulsante eye">
         <nuxt-link to="eye"><p>EYE</p></nuxt-link>
@@ -26,7 +14,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style >
 .topNav {
   display: flex;
   justify-content: space-between;

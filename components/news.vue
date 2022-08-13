@@ -46,29 +46,6 @@ export default {};
 </script>
 
 <style scoped>
-/* .news {
-  width: 100%;
-  border-top: 0.5px solid rgb(67, 67, 229);
-  bottom: 0;
-  position: absolute;
-  height: 5%;
-  overflow: auto;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  white-space: nowrap;
-}
-
-p {
-  font-size: 12px;
-  color: rgb(67, 67, 229);
-  padding: 0 5px;
-  text-transform: uppercase;
-}
-*/
-
 img {
   padding: 0 10px;
   width: 32px;
@@ -87,11 +64,12 @@ img {
 
 .track {
   position: absolute;
+  top: 25%;
   white-space: nowrap;
   will-change: transform;
   animation: marquee 45s linear infinite;
 
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(67, 67, 229);
   text-transform: uppercase;
 }

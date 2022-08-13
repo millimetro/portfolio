@@ -1,19 +1,19 @@
 <template>
   <div id="IndexPage">
-    <NavBar />
+    <NavMain />
     <News />
   </div>
 </template>
 
 <script>
-import NavBar from "../components/NavBar.vue";
 import News from "../components/news.vue";
+import NavMain from "../components/NavMain.vue";
 
 export default {
   name: "IndexPage",
   components: {
-    NavBar,
     News,
+    NavMain,
   },
 };
 </script>

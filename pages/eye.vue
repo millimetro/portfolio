@@ -1,20 +1,10 @@
 <template>
-  <div>
-    <div class="occhi top">
-      <Eyes class="left" />
-
-      <Eyes class="right" />
-    </div>
+  <div class="main">
+    <Eyz />
     <div class="testino">
       <h2>You are not watched</h2>
 
       <p>on this website</p>
-    </div>
-
-    <div class="occhi bottom">
-      <Eyes class="left" />
-
-      <Eyes class="right" />
     </div>
   </div>
 </template>
@@ -26,24 +16,24 @@ export default { components: { Eyz } };
 
 
 
-<style  scoped>
+<style lang="scss" scoped>
 .testino {
-  height: 100vh;
-  width: 100%;
+  // height: 80vh;
+  // width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
-}
 
-h2 {
-  font-size: 50px;
-  text-transform: uppercase;
-}
+  h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+  }
 
-p {
-  font-size: 12px;
+  p {
+    font-size: 12px;
+  }
 }
 
 .top {
