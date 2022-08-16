@@ -18,7 +18,7 @@ export default { components: { Eyz } };
 <style scoped>
 .main {
   display: flex;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 
   flex-direction: column;
