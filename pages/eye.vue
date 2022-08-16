@@ -1,6 +1,7 @@
 <template>
   <div class="main">
     <p>on this website</p>
+
     <Eyz />
     <div class="testino">
       <h2>You are not watched</h2>
@@ -40,6 +41,6 @@ h2 {
 
 p {
   font-size: 16px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 </style>

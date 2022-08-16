@@ -86,7 +86,7 @@ export default {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 /* ROLLING TEXT */

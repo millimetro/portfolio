@@ -2,14 +2,14 @@
   <div>
     <div class="contactPage">
       <div class="email block">
-        <h1 class="present">Email</h1>
+        <h1 class="present">email</h1>
         <h1 class="hover">
           <a href="mailto:ciao@millimetro.xyz">ciao@millimetro.xyz</a>
         </h1>
       </div>
 
       <div class="instagram block">
-        <h1 class="present">IG</h1>
+        <h1 class="present">instagram</h1>
         <h1 class="hover">
           <a href="http://instragram.com/millimetro_">@millimetro_</a>
         </h1>
@@ -35,18 +35,7 @@ export default {
 </script>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  overflow: hidden;
-}
-
 .contactPage {
-  position: absolute;
-  top: 0;
   display: flex;
   align-items: left;
   justify-content: center;
@@ -56,7 +45,8 @@ body {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 72px;
+
   white-space: nowrap;
   margin-left: 20px;
   transition: 0.5s ease-in-out;
@@ -94,6 +84,16 @@ h1 {
 a {
   text-decoration: none;
   color: white;
-  transition: 0.3s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.present {
+  text-transform: lowercase;
+}
+
+h1 {
+  color: black;
+  -webkit-text-stroke: 2px white;
+  padding: 10px 0px;
 }
 </style>
