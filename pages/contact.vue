@@ -1,6 +1,12 @@
 <template>
   <div>
-    <div class="contactPage">
+    <div class="contactMobile">
+      <h1>Email</h1>
+      <a href="mailto:ciao@millimetro.xyz">ciao@millimetro.xyz</a>
+      <h1>IG</h1>
+      <a href="http://instragram.com/millimetro_">@millimetro_</a>
+    </div>
+    <div class="contactPageWeb">
       <div class="email block">
         <h1 class="present">email</h1>
         <h1 class="hover">
@@ -22,7 +28,7 @@
 export default {
   mounted() {
     const tl = gsap.timeline();
-    tl.from("contactPage", {
+    tl.from("contactPageWeb", {
       duration: 2,
       y: "-100%",
       opacity: 0,
@@ -35,7 +41,38 @@ export default {
 </script>
 
 <style>
-.contactPage {
+@media (max-width: 768px) {
+  .contactPageWeb {
+    display: none !important;
+  }
+
+  .contactMobile {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: left;
+    padding: 0 10%;
+  }
+
+  .contactMobile a {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+
+  .contactMobile h1 {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactMobile {
+    display: none !important;
+  }
+}
+
+.contactPageWeb {
   display: flex;
   align-items: left;
   justify-content: center;

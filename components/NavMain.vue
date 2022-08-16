@@ -65,6 +65,23 @@ export default {
 
 
 <style>
+@media (max-width: 768px) {
+  .container ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    line-height: 42px;
+  }
+
+  .container ul li {
+    padding: 10px;
+  }
+
+  .container ul li a {
+    font-size: 36px !important;
+  }
+}
 .container {
   display: flex;
   align-items: center;

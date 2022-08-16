@@ -20,4 +20,18 @@ export default {
 
 <style lang="scss">
 @import "../assets/css/main.scss";
+
+@media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+
+  .topNav {
+    padding: 5%;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+}
 </style>

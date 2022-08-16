@@ -30,7 +30,18 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10%;
+    text-align: left;
+  }
+
+  .container .txt-line p {
+    font-size: 2em !important;
+    padding: 10px 0px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
