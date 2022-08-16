@@ -1,39 +1,23 @@
 <template>
-  <!-- <div>
-    <div class="news">
-      <p>Hello there! :)) My name is millimetro - welcome to my portfolio</p>
-      <img src="../assets/img/dot.svg" alt="" />
-
-      <p>Hello there! :)) My name is millimetro - welcome to my portfolio</p>
-      <img src="../assets/img/dot.svg" alt="" />
-
-      <p>Hello there! :)) My name is millimetro - welcome to my portfolio</p>
-      <img src="../assets/img/dot.svg" alt="" />
-
-      <p>Hello there! :)) My name is millimetro - welcome to my portfolio</p>
-      <img src="../assets/img/dot.svg" alt="" />
-    </div>
-  </div> -->
-
   <div>
     <div class="marquee">
       <div class="track">
         <div class="content">
-          &nbsp;Hello there! My name is millimetro - welcome to my portfolio :))
+          &nbsp;Hello there! My name is millimetro - WELCOME TO MY PORTFOLIO :))
           <img src="../assets/img/dot.svg" alt="" />
-          &nbsp;Hello there! My name is millimetro - welcome to my portfolio :))
+          &nbsp;Hello there! My name is millimetro - WELCOME TO MY PORTFOLIO :))
           <img src="../assets/img/dot.svg" alt="" />
-          &nbsp;Hello there! My name is millimetro - welcome to my portfolio :))
+          &nbsp;Hello there! My name is millimetro - WELCOME TO MY PORTFOLIO :))
           <img src="../assets/img/dot.svg" alt="" />
-          &nbsp;Hello there! My name is millimetro - welcome to my portfolio :))
+          &nbsp;Hello there! My name is millimetro - WELCOME TO MY PORTFOLIO :))
           <img src="../assets/img/dot.svg" alt="" />
-          &nbsp;Hello there! My name is millimetro - welcome to my portfolio :))
+          &nbsp;Hello there! My name is millimetro - WELCOME TO MY PORTFOLIO :))
           <img src="../assets/img/dot.svg" alt="" />
-          &nbsp;Hello there! My name is millimetro - welcome to my portfolio :))
+          &nbsp;Hello there! My name is millimetro - WELCOME TO MY PORTFOLIO :))
           <img src="../assets/img/dot.svg" alt="" />
-          &nbsp;Hello there! My name is millimetro - welcome to my portfolio :))
+          &nbsp;Hello there! My name is millimetro - WELCOME TO MY PORTFOLIO :))
           <img src="../assets/img/dot.svg" alt="" />
-          &nbsp;Hello there! My name is millimetro - welcome to my portfolio :))
+          &nbsp;Hello there! My name is millimetro - WELCOME TO MY PORTFOLIO :))
           <img src="../assets/img/dot.svg" alt="" />
         </div>
       </div>
@@ -56,7 +40,7 @@ img {
   bottom: 0;
   width: 100vw;
   max-width: 100%;
-  height: 5%;
+  height: 6%;
   overflow-x: hidden;
 
   border-top: 0.5px solid rgb(67, 67, 229);
@@ -64,7 +48,7 @@ img {
 
 .track {
   position: absolute;
-  top: 25%;
+  top: 30%;
   white-space: nowrap;
   will-change: transform;
   animation: marquee 45s linear infinite;
