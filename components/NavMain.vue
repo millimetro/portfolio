@@ -64,7 +64,7 @@ export default {
 </script>
 
 
-<style >
+<style>
 .container {
   display: flex;
   align-items: center;

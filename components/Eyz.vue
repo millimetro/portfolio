@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 .eyes {
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
@@ -50,9 +50,9 @@ export default {
 }
 
 .ball {
-  width: 40px;
-  height: 40px;
-  background: violet;
+  width: 70px;
+  height: 70px;
+  background: black;
   position: absolute;
   top: 50%;
   left: 50%;

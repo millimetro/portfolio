@@ -60,7 +60,8 @@ body {
 
 .container .txt-line p {
   overflow: hidden;
-  font-size: 2em;
+  font-size: 1.5em;
+  line-height: 1em;
   /* font-weight: lighter; */
 }
 </style>

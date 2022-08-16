@@ -1,10 +1,9 @@
 <template>
   <div class="main">
+    <p>on this website</p>
     <Eyz />
     <div class="testino">
       <h2>You are not watched</h2>
-
-      <p>on this website</p>
     </div>
   </div>
 </template>
@@ -16,39 +15,31 @@ export default { components: { Eyz } };
 
 
 
-<style lang="scss" scoped>
-.testino {
-  // height: 80vh;
-  // width: 100%;
+<style scoped>
+.main {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+/* .testino {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
+} */
 
-  h2 {
-    font-size: 50px;
-    text-transform: uppercase;
-  }
-
-  p {
-    font-size: 12px;
-  }
+h2 {
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
-.top {
-  top: 0;
-}
-
-.bottom {
-  bottom: 0;
-}
-
-.left {
-  left: 0;
-}
-
-.right {
-  right: 0;
+p {
+  font-size: 16px;
+  text-transform: uppercase;
 }
 </style>

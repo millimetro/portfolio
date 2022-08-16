@@ -1,5 +1,5 @@
 <template>
-  <div id="IndexPage">
+  <div id="IndexPage" class="paperino">
     <NavMain />
     <News />
   </div>
