@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavTop class="topbar" />
+    <NavTop class="topbar hoverino" />
 
     <Nuxt />
 
@@ -24,7 +24,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 .topbar {
   height: 0vh;
 }

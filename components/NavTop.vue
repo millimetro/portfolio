@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="topNav">
+    <div class="topNav hoverino">
       <nuxt-link to="/">@millimetro_</nuxt-link>
 
       <div class="pulsante eye">
@@ -21,7 +21,6 @@ export default {};
   display: flex;
   justify-content: space-between;
   padding: 2%;
-
   font-size: 12px;
 }
 

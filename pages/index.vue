@@ -1,6 +1,6 @@
 <template>
   <div id="IndexPage" class="paperino">
-    <NavMain />
+    <NavMain class="hoverino" />
     <News />
   </div>
 </template>
