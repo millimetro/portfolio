@@ -9,6 +9,7 @@
       <div class="txt-line">
         <p>Contact me if you want to spice up your website :))</p>
       </div>
+      <div class="cta"><a href="mailto:ciao@millimetro.xyz">SAY HI :)</a></div>
     </div>
   </div>
 </template>
@@ -38,8 +39,15 @@ export default {
   }
 
   .container .txt-line p {
-    font-size: 2em !important;
+    font-size: 1.5em !important;
+    line-height: 1.2em;
     padding: 10px 0px;
+  }
+}
+
+@media (min-width: 900px) {
+  .cta {
+    display: none;
   }
 }
 * {
@@ -53,6 +61,25 @@ body {
   width: 100%;
   background-color: black;
   color: white;
+}
+
+/* CTA */
+
+.cta {
+  margin: 45px 20% 0px;
+}
+
+.cta a {
+  text-decoration: none;
+  padding: 25px 50px;
+
+  display: block;
+  justify-content: center;
+
+  color: white;
+  background-color: blue;
+  /* border: 2px solid white; */
+  border-radius: 100%;
 }
 
 .container {
@@ -73,6 +100,5 @@ body {
   overflow: hidden;
   font-size: 1.5em;
   line-height: 1.2em;
-  /* font-weight: lighter; */
 }
 </style>

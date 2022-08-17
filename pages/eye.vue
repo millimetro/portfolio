@@ -17,6 +17,16 @@ export default { components: { Eyz } };
 
 
 <style scoped>
+@media (max-width: 768px) {
+  .main p {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .testino h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}
 .main {
   display: flex;
   height: 100vh;

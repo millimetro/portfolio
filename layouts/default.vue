@@ -33,7 +33,7 @@ export default {
   position: relative;
 } */
 
-/* .paperOverlay {
+.paperOverlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -44,7 +44,6 @@ export default {
   mix-blend-mode: difference;
   pointer-events: none;
 
-  opacity: 0.6; 
-  }
-*/
+  opacity: 0.8;
+}
 </style>

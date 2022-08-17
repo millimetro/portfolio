@@ -7,16 +7,14 @@ $grey: grey;
 $black: black;
 
 @font-face {
-    font-family: 'Mattone-150';
-    src: url('@/assets/fonts/Mattone-150.otf');
-  }
+  font-family: "Mattone-150";
+  src: url("@/assets/fonts/Mattone-150.otf");
+}
 
-  body {
+body {
   font-family: "Mattone-150";
   background-color: $black;
 }
-
-
 
 .topNav {
   display: flex;
@@ -56,5 +54,3 @@ $black: black;
   -ms-transform: scale(1); */
   transform: scale(4);
 }
-
-

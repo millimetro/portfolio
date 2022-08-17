@@ -75,7 +75,7 @@ export default {
   }
 
   .container ul li {
-    padding: 10px;
+    padding: 5px;
   }
 
   .container ul li a {

@@ -29,7 +29,13 @@
 export default {};
 </script>
 
-<style scoped>
+<style >
+@media (max-width: 768px) {
+  .track {
+    font-size: 12px !important;
+  }
+}
+
 img {
   padding: 0 10px;
   width: 32px;
@@ -41,7 +47,7 @@ img {
   width: 100vw;
   max-width: 100%;
   height: 6%;
-  overflow-x: hidden;
+  overflow: hidden;
 
   border-top: 0.5px solid rgb(67, 67, 229);
 }
