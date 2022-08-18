@@ -29,7 +29,7 @@
 export default {};
 </script>
 
-<style >
+<style>
 @media (max-width: 768px) {
   .track {
     font-size: 12px !important;

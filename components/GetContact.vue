@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style>
+<style >
 * {
   margin: 0;
   padding: 0;
@@ -47,10 +47,12 @@ body {
   background-color: #e0e0e0;
   color: white;
 }
+
 .container {
   height: 100vh;
   width: 100%;
 }
+
 .content {
   height: 400vh;
   width: 100%;

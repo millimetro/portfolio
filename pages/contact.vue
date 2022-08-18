@@ -1,24 +1,28 @@
 <template>
   <div>
-    <div class="contactMobile">
-      <h1>Email</h1>
-      <a href="mailto:ciao@millimetro.xyz">ciao@millimetro.xyz</a>
-      <h1>IG</h1>
-      <a href="http://instragram.com/millimetro_">@millimetro_</a>
-    </div>
-    <div class="contactPageWeb">
-      <div class="email block">
-        <h1 class="present">email</h1>
-        <h1 class="hover">
-          <a href="mailto:ciao@millimetro.xyz">ciao@millimetro.xyz</a>
-        </h1>
-      </div>
+    <div class="container">
+      <div class="contactMobile">
+        <!-- <h1>IG</h1> -->
 
-      <div class="instagram block">
-        <h1 class="present">instagram</h1>
-        <h1 class="hover">
-          <a href="http://instragram.com/millimetro_">@millimetro_</a>
-        </h1>
+        <a href="http://instragram.com/millimetro_">@millimetro_</a>
+
+        <!-- <h1>Email</h1> -->
+        <a href="mailto:ciao@millimetro.xyz">ciao@millimetro.xyz</a>
+      </div>
+      <div class="contactPageWeb">
+        <div class="email block">
+          <h1 class="present">email</h1>
+          <h1 class="hover">
+            <a href="mailto:ciao@millimetro.xyz">ciao@millimetro.xyz</a>
+          </h1>
+        </div>
+
+        <div class="instagram block">
+          <h1 class="present">instagram</h1>
+          <h1 class="hover">
+            <a href="http://instragram.com/millimetro_">@millimetro_</a>
+          </h1>
+        </div>
       </div>
     </div>
   </div>
@@ -27,14 +31,24 @@
 <script>
 export default {
   mounted() {
-    const tl = gsap.timeline();
-    tl.from("contactPageWeb", {
-      duration: 2,
-      y: "-100%",
+    // Dall'alto verso il basso
+    // const tl = gsap.timeline();
+    // tl.from(".contactPageWeb, .contactMobile", {
+    //   duration: 2,
+    //   y: "-200%",
+    //   opacity: 0,
+    //   stagger: {
+    //     amount: 0.25,
+    //   },
+    // });
+
+    //Dal basso verso l'alto
+    gsap.from(".contactPageWeb, .contactMobile", 2, {
+      y: "200",
       opacity: 0,
-      stagger: {
-        amount: 0.25,
-      },
+      ease: Expo.easeInOut,
+      delay: 0,
+      stagger: 0.08,
     });
   },
 };
@@ -52,7 +66,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    text-align: left;
+    text-align: center;
     padding: 0 10%;
   }
 
@@ -76,7 +90,6 @@ export default {
   display: flex;
   align-items: left;
   justify-content: center;
-  height: 100vh;
   width: 100%;
   flex-direction: column;
 }

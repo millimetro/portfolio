@@ -19,10 +19,11 @@
           >
         </li>
         <!-- <li><nuxt-link to="sound">Sound Design</nuxt-link></li> -->
+
+        <li><nuxt-link to="about" class="rolling-text">About Me</nuxt-link></li>
         <li>
           <nuxt-link to="contact" class="rolling-text">Contacts</nuxt-link>
         </li>
-        <li><nuxt-link to="about" class="rolling-text">About Me</nuxt-link></li>
       </ul>
     </div>
   </div>

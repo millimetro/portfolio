@@ -27,6 +27,15 @@ export default {
         amount: 0.5,
       },
     });
+
+    // Dal basso verso l'alto
+    gsap.from(".cta", 2, {
+      y: "200",
+      opacity: 0,
+      ease: Expo.easeInOut,
+      delay: 1,
+      stagger: 0.08,
+    });
   },
 };
 </script>
@@ -41,7 +50,7 @@ export default {
   .container .txt-line p {
     font-size: 1.5em !important;
     line-height: 1.2em;
-    padding: 10px 0px;
+    padding: 7px 0px !important;
   }
 }
 
@@ -66,7 +75,7 @@ body {
 /* CTA */
 
 .cta {
-  margin: 45px 20% 0px;
+  margin: 60px 20% 30px;
 }
 
 .cta a {

@@ -25,7 +25,7 @@ export default {};
 }
 
 img {
-  height: 10px;
+  height: 12px;
 }
 
 .pulsante {
