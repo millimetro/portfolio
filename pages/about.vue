@@ -59,10 +59,6 @@ export default {
     display: none;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   overflow: hidden;
@@ -98,6 +94,7 @@ body {
   /* padding: 9px 100px; */
   flex-direction: column;
   height: 100vh;
+  width: 100%;
 }
 
 .container .txt-line {

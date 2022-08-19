@@ -39,6 +39,7 @@ export default {
 
   .topNav {
     padding: 5%;
+    z-index: 100;
   }
 
   .container {

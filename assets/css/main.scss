@@ -11,9 +11,20 @@ $black: black;
   src: url("@/assets/fonts/Mattone-150.otf");
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Mattone-150";
   background-color: $black;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
 }
 
 .topNav {

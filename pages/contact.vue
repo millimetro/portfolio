@@ -61,18 +61,22 @@ export default {
   }
 
   .contactMobile {
-    height: 100vh;
+    /* height: 100vh; */
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
     text-align: center;
-    padding: 0 10%;
+    /* padding: 0 10%; */
   }
 
   .contactMobile a {
     font-size: 24px;
-    padding: 10px 0;
+    padding: 35px 20px;
+    margin: 15px 0px;
+    border: 2px solid white;
+    border-radius: 100%;
   }
 
   .contactMobile h1 {
