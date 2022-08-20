@@ -1,8 +1,10 @@
 <template>
   <div class="main-wrapper">
-    <NavTop class="topbar hoverino" />
+    <NavTop class="topbar" />
 
     <Nuxt class="main" />
+
+    <News />
 
     <div class="cursor"></div>
     <!-- <div class="paperOverlay"></div> -->
@@ -11,10 +13,20 @@
 
 <script>
 import NavTop from "../components/NavTop.vue";
+import News from "../components/News.vue";
 export default {
-  components: { NavTop },
+  components: { NavTop, News },
 
   mounted() {
+    //Dal basso verso l'alto
+    gsap.from(".main-wrapper", 2, {
+      y: "200",
+      opacity: 0,
+      ease: Expo.easeInOut,
+      delay: 0,
+      stagger: 1,
+    });
+
     // Cursor movement
     const cursor = document.querySelector(".cursor");
     document.addEventListener("mousemove", (e) => {
@@ -33,6 +45,11 @@ export default {
     height: -webkit-fill-available;
   }
 }
+
+// .main {
+//   flex: 1;
+//   overflow: scroll;
+// }
 
 .paperOverlay {
   position: absolute;

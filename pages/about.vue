@@ -35,7 +35,7 @@ export default {
       y: "200",
       opacity: 0,
       ease: Expo.easeInOut,
-      delay: 1,
+      delay: 0.5,
       stagger: 0.08,
     });
   },
@@ -45,6 +45,7 @@ export default {
 <style lang="scss">
 @media (max-width: 768px) {
   .about-container {
+    height: 100vh;
     padding: 0 10%;
     text-align: left;
 
@@ -63,6 +64,7 @@ export default {
 }
 
 .about-container {
+  padding-top: 100px;
   overflow: hidden;
   height: 100vh;
   width: 100%;

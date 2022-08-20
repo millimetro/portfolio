@@ -74,7 +74,7 @@ export default {
 <style>
 @media (max-width: 768px) {
   .navMain-container {
-    height: 70vh;
+    top: 50%;
   }
   .navMain-container ul {
     display: flex;
@@ -91,7 +91,7 @@ export default {
   }
 
   .navMain-container ul li a {
-    font-size: 36px !important;
+    font-size: 32px !important;
   }
 }
 .navMain-container {
@@ -99,7 +99,7 @@ export default {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 
 .navMain-container ul {

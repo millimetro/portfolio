@@ -32,7 +32,7 @@ export default {};
 <style lang="scss">
 @media (max-width: 768px) {
   .news-content {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 
@@ -53,14 +53,14 @@ export default {};
     will-change: transform;
     animation: marquee 45s linear infinite;
 
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(67, 67, 229);
     text-transform: uppercase;
 
     .news-content {
       img {
         padding: 0 10px;
-        width: 32px;
+        width: 30px;
       }
     }
   }

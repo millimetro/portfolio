@@ -59,16 +59,20 @@ export default {
 
 @media (max-width: 768px) {
   .contact-web {
-    display: none;
+    display: none !important;
+  }
+
+  .contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
   }
 
   .contact-mobile {
-    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     text-align: center;
     padding: 0 5%;
   }
@@ -96,7 +100,7 @@ export default {
   display: flex;
   align-items: left;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
 
   width: 100%;
   flex-direction: column;

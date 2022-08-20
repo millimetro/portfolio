@@ -17,9 +17,19 @@ $black: black;
   box-sizing: border-box;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   font-family: "Mattone-150";
   background-color: $black;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  height: -webkit-fill-available;
 }
 
 a:visited {
@@ -38,6 +48,8 @@ a:visited {
   height: 25px;
   border-radius: 50%;
   pointer-events: none;
+
+  z-index: 1000;
 
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;

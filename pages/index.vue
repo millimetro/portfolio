@@ -1,20 +1,18 @@
 <template>
   <div id="IndexPage" class="paperino">
-    <NavMain />
-    <News />
+    <NavMain class="main" />
   </div>
 </template>
 
 <script>
-import News from "../components/news.vue";
 import NavMain from "../components/NavMain.vue";
 
 export default {
   name: "IndexPage",
   components: {
-    News,
     NavMain,
   },
+  layout: "index",
 
   mounted() {
     //Dal basso verso l'alto
