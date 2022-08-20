@@ -6,7 +6,7 @@
           <a
             href="https://www.instagram.com/millimetro_/"
             target="blank"
-            class="navMain-rolling-text hoverino"
+            class="navMain-rolling-text"
             >Instagram</a
           >
         </li>

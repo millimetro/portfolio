@@ -15,6 +15,7 @@ export default {
   components: { NavTop },
 
   mounted() {
+    // Cursor movement
     const cursor = document.querySelector(".cursor");
     document.addEventListener("mousemove", (e) => {
       cursor.style.left = e.pageX + "px";

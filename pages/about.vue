@@ -57,9 +57,9 @@ export default {
 }
 
 @media (min-width: 900px) {
-  .about-cta {
-    display: none;
-  }
+  // .about-cta {
+  //   display: none;
+  // }
 }
 
 .about-container {

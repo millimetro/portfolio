@@ -54,10 +54,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" >
+// !!not refactored in scss
+
 @media (max-width: 768px) {
   .contact-web {
-    display: none !important;
+    display: none;
   }
 
   .contact-mobile {
@@ -149,7 +151,7 @@ a {
 
 h1 {
   color: black;
-  -webkit-text-stroke: 2px white;
+  -webkit-text-stroke: 1.5px white;
   padding: 10px 0px;
 }
 </style>
