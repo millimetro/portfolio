@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="navTop-container">
-      <div class="navTop-home hoverino">
+      <div class="navTop-home">
         <nuxt-link to="/">@millimetro_</nuxt-link>
       </div>
 
-      <div class="navTop-pulsante navTop-eye hoverino">
+      <div class="navTop-pulsante navTop-eye">
         <nuxt-link to="eye">
           <img src="../assets/img/Occhio.svg" alt="" />
         </nuxt-link>
@@ -30,16 +30,18 @@ export default {};
   z-index: 10;
 
   img {
+    top: 50%;
+    left: 50%;
     height: 10px;
   }
 
   .navTop-home {
-    border: 2px solid white;
+    // border: 2px solid white;
     padding: 5px;
   }
 
   .navTop-eye {
-    border: 2px solid white;
+    // border: 2px solid white;
 
     background-color: blue;
     padding: 5px 10px;

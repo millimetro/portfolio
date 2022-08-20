@@ -1,16 +1,30 @@
 <template>
-  <div class="eye-main">
-    <!-- <p>on this website</p> -->
-    <Eyz />
-    <div class="eye-testino">
-      <!-- <h2>You are not watched</h2> -->
+  <div>
+    <div class="eye-main">
+      <!-- <p>on this website</p> -->
+      <Eyz />
+      <div class="eye-testino">
+        <!-- <h2>You are not watched</h2> -->
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Eyz from "../components/Eyz.vue";
-export default { components: { Eyz } };
+export default {
+  components: { Eyz },
+  mounted() {
+    //Dal basso verso l'alto
+    gsap.from(".eye-main", 1, {
+      y: "100",
+      opacity: 0,
+      ease: Expo.easeInOut,
+      delay: 0,
+      stagger: 0,
+    });
+  },
+};
 </script>
 
 

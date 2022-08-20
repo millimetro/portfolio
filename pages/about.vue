@@ -9,14 +9,16 @@
       <div class="about-txt-line">
         <p>Contact me if you want to spice up your website :))</p>
       </div>
-      <div class="about-cta">
+      <!-- <div class="about-cta hoverino">
         <a href="mailto:ciao@millimetro.xyz">SAY HI :)</a>
-      </div>
+      </div> -->
+      <BtnSticky />
     </div>
   </div>
 </template>
 
 <script>
+import BtnSticky from "../components/BtnSticky.vue";
 export default {
   mounted() {
     const tl = gsap.timeline();
@@ -29,7 +31,6 @@ export default {
         amount: 0.5,
       },
     });
-
     // Dal basso verso l'alto
     gsap.from(".about-cta", 2, {
       y: "200",
@@ -39,6 +40,7 @@ export default {
       stagger: 0.08,
     });
   },
+  components: { BtnSticky },
 };
 </script>
 
@@ -57,37 +59,12 @@ export default {
   }
 }
 
-@media (min-width: 900px) {
-  // .about-cta {
-  //   display: none;
-  // }
-}
-
 .about-container {
-  padding-top: 100px;
   overflow: hidden;
   height: 100vh;
   width: 100%;
   background-color: black;
   color: white;
-}
-
-/* CTA only mobile! */
-
-.about-cta {
-  margin: 60px 20% 30px;
-  a {
-    text-decoration: none;
-    padding: 25px 50px;
-
-    display: block;
-    justify-content: center;
-
-    color: white;
-    background-color: blue;
-    /* border: 2px solid white; */
-    border-radius: 100%;
-  }
 }
 
 .about-container {
@@ -109,4 +86,22 @@ export default {
     }
   }
 }
+
+/* CTA only mobile! */
+
+// .about-cta {
+//   margin: 60px 20% 30px;
+//   a {
+//     text-decoration: none;
+//     padding: 25px 50px;
+
+//     display: block;
+//     justify-content: center;
+
+//     color: white;
+//     background-color: blue;
+//     /* border: 2px solid white; */
+//     border-radius: 100%;
+//   }
+// }
 </style>

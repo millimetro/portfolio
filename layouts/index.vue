@@ -1,6 +1,6 @@
 <template>
   <div class="main-wrapper">
-    <NavTop class="topbar" />
+    <NavTop class="topbar hoverino" />
 
     <Nuxt class="main" />
 
