@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="container">
-      <div class="contactMobile">
+    <div class="contact-container">
+      <div class="contact-mobile">
         <!-- <h1>IG</h1> -->
 
         <a href="http://instragram.com/millimetro_">@millimetro_</a>
@@ -9,17 +9,17 @@
         <!-- <h1>Email</h1> -->
         <a href="mailto:ciao@millimetro.xyz">ciao@millimetro.xyz</a>
       </div>
-      <div class="contactPageWeb">
-        <div class="email block">
-          <h1 class="present">email</h1>
-          <h1 class="hover">
+      <div class="contact-web">
+        <div class="contact-email contact-block">
+          <h1 class="contact-present">email</h1>
+          <h1 class="contact-hover">
             <a href="mailto:ciao@millimetro.xyz">ciao@millimetro.xyz</a>
           </h1>
         </div>
 
-        <div class="instagram block">
-          <h1 class="present">instagram</h1>
-          <h1 class="hover">
+        <div class="contact-instagram contact-block">
+          <h1 class="contact-present">instagram</h1>
+          <h1 class="contact-hover">
             <a href="http://instragram.com/millimetro_">@millimetro_</a>
           </h1>
         </div>
@@ -33,7 +33,7 @@ export default {
   mounted() {
     // Dall'alto verso il basso
     // const tl = gsap.timeline();
-    // tl.from(".contactPageWeb, .contactMobile", {
+    // tl.from(".contact-web, .contact-mobile", {
     //   duration: 2,
     //   y: "-200%",
     //   opacity: 0,
@@ -43,7 +43,7 @@ export default {
     // });
 
     //Dal basso verso l'alto
-    gsap.from(".contactPageWeb, .contactMobile", 2, {
+    gsap.from(".contact-web, .contact-mobile", 2, {
       y: "200",
       opacity: 0,
       ease: Expo.easeInOut,
@@ -56,22 +56,22 @@ export default {
 
 <style>
 @media (max-width: 768px) {
-  .contactPageWeb {
+  .contact-web {
     display: none !important;
   }
 
-  .contactMobile {
-    /* height: 100vh; */
+  .contact-mobile {
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
     text-align: center;
-    /* padding: 0 10%; */
+    padding: 0 5%;
   }
 
-  .contactMobile a {
+  .contact-mobile a {
     font-size: 24px;
     padding: 35px 20px;
     margin: 15px 0px;
@@ -79,21 +79,23 @@ export default {
     border-radius: 100%;
   }
 
-  .contactMobile h1 {
+  .contact-mobile h1 {
     margin: 0;
   }
 }
 
 @media (min-width: 900px) {
-  .contactMobile {
+  .contact-mobile {
     display: none !important;
   }
 }
 
-.contactPageWeb {
+.contact-web {
   display: flex;
   align-items: left;
   justify-content: center;
+  height: 90vh;
+
   width: 100%;
   flex-direction: column;
 }
@@ -106,18 +108,18 @@ h1 {
   transition: 0.5s ease-in-out;
 }
 
-.block {
+.contact-block {
   display: flex;
   border-bottom: 1px solid white;
 }
 
-.hover {
+.contact-hover {
   opacity: 0;
   overflow: hidden;
   transition: 0.5s ease-in-out;
 }
 
-.block:hover .hover {
+.contact-block:hover .contact-hover {
   opacity: 1;
   animation: animate 10s linear infinite;
 }
@@ -131,7 +133,7 @@ h1 {
   }
 }
 
-.block:hover .present {
+.contact-block:hover .contact-present {
   opacity: 0;
 }
 
@@ -141,7 +143,7 @@ a {
   transition: 0.5s ease-in-out;
 }
 
-.present {
+.contact-present {
   text-transform: lowercase;
 }
 

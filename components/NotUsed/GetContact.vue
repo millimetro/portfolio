@@ -37,12 +37,7 @@ export default {
 };
 </script>
 
-<style >
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<style scoped>
 body {
   background-color: #e0e0e0;
   color: white;

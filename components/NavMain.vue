@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="container">
+    <div class="navMain-container">
       <ul>
         <li>
           <a
             href="https://www.instagram.com/millimetro_/"
             target="blank"
-            class="rolling-text hoverino"
+            class="navMain-rolling-text hoverino"
             >Instagram</a
           >
         </li>
@@ -14,15 +14,21 @@
           <a
             href="https://giphy.com/channel/millimetro"
             target="blank"
-            class="rolling-text"
+            class="navMain-rolling-text"
             >Giphy</a
           >
         </li>
         <!-- <li><nuxt-link to="sound">Sound Design</nuxt-link></li> -->
 
-        <li><nuxt-link to="about" class="rolling-text">About Me</nuxt-link></li>
         <li>
-          <nuxt-link to="contact" class="rolling-text">Contacts</nuxt-link>
+          <nuxt-link to="about" class="navMain-rolling-text"
+            >About Me</nuxt-link
+          >
+        </li>
+        <li>
+          <nuxt-link to="contact" class="navMain-rolling-text"
+            >Contacts</nuxt-link
+          >
         </li>
       </ul>
     </div>
@@ -35,7 +41,7 @@
 <script>
 export default {
   mounted() {
-    let elements = document.querySelectorAll(".rolling-text");
+    let elements = document.querySelectorAll(".navMain-rolling-text");
 
     elements.forEach((element) => {
       let innerText = element.innerText;
@@ -67,40 +73,45 @@ export default {
 
 <style>
 @media (max-width: 768px) {
-  .container ul {
+  .navMain-container {
+    height: 70vh;
+  }
+  .navMain-container ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     line-height: 42px;
   }
 
-  .container ul li {
+  .navMain-container ul li {
     padding: 5px;
   }
 
-  .container ul li a {
+  .navMain-container ul li a {
     font-size: 36px !important;
   }
 }
-.container {
+.navMain-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 
-.container ul {
+.navMain-container ul {
   list-style: none;
   display: flex;
 }
 
-.container ul li {
+.navMain-container ul li {
   margin: 0px 20px;
 }
 
-.container ul li a {
+.navMain-container ul li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
@@ -109,7 +120,7 @@ export default {
 
 /* ROLLING TEXT */
 
-.rolling-text {
+.navMain-rolling-text {
   display: inline-block;
   font-size: 36px;
   line-height: 36px;
@@ -119,14 +130,14 @@ export default {
   overflow: hidden;
   color: #fff;
 }
-.rolling-text:hover .letter,
-.rolling-text.play .letter {
+.navMain-rolling-text:hover .letter,
+.navMain-rolling-text.play .letter {
   transform: translateY(-100%);
 }
-.rolling-text .block:last-child {
+.navMain-rolling-text .block:last-child {
   color: white;
 }
-.rolling-text .letter {
+.navMain-rolling-text .letter {
   display: inline-block;
   transition: transform 0.6s cubic-bezier(0.76, 0, 0.24, 1);
 }

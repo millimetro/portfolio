@@ -32,18 +32,9 @@ export default {
 <style lang="scss">
 @import "../assets/css/main.scss";
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .cursor {
     display: none;
-  }
-
-  .topNav {
-    padding: 5%;
-    z-index: 100;
-  }
-
-  .container {
-    flex-wrap: wrap;
   }
 }
 </style>

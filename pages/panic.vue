@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="message">
+    <div class="panic-message">
       <h1>DON'T PANIC!</h1>
     </div>
-    <div class="star">
+    <div class="panic-star">
       <img src="../assets/img/Star 1.svg" alt="" />
     </div>
   </div>
@@ -15,8 +15,8 @@ export default {
 };
 </script>
 
-<style scoped>
-.message {
+<style lang="scss">
+.panic-message {
   position: absolute;
   background-color: whitesmoke;
   height: 100vh;
@@ -24,24 +24,25 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  h1 {
+    z-index: 100;
+    font-size: 65px;
+    color: red;
+    text-align: center;
+  }
 }
 
-.star {
+.panic-star {
   background-color: white;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-img {
-  position: absolute;
-  z-index: 5;
-  width: 80%;
-}
-h1 {
-  z-index: 100;
-  font-size: 65px;
-  color: red;
-  text-align: center;
+  img {
+    position: absolute;
+    z-index: 5;
+    width: 80%;
+  }
 }
 </style>

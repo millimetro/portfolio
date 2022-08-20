@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-wrapper">
     <NavTop class="topbar hoverino" />
 
     <Nuxt />
@@ -24,15 +24,23 @@ export default {
 };
 </script>
 
-<style>
-.topbar {
-  height: 0vh;
+<style lang="scss">
+@media (max-width: 900px) {
+  .main-wrapper {
+    height: 100vh;
+
+    .topbar {
+      height: 5vh;
+    }
+  }
 }
+.main-wrapper {
+  height: 100vh;
 
-/* body {
-  position: relative;
-} */
-
+  .topbar {
+    height: 10vh;
+  }
+}
 .paperOverlay {
   position: absolute;
   top: 0;

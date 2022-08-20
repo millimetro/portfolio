@@ -1,10 +1,10 @@
 <template>
-  <div class="main">
-    <div class="title">
+  <div class="sound-main">
+    <div class="sound-title">
       <h1>The Anxious Journey</h1>
     </div>
 
-    <div class="video">
+    <div class="sound-video">
       <iframe
         src="https://player.vimeo.com/video/680421358?h=4f94a2531b&autoplay=1"
         width="1280"
@@ -15,7 +15,7 @@
       ></iframe>
     </div>
 
-    <div class="subtitle">
+    <div class="sound-subtitle">
       <p>sound design</p>
     </div>
   </div>
@@ -27,14 +27,14 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.main {
+<style lang="scss">
+.sound-main {
   height: 100vh;
   //   display: flex;
   //   flex-direction: column;
   //   justify-content: space-around;
 }
-.title {
+.sound-title {
   h1 {
     font-size: 7rem;
     text-align: center;
@@ -42,13 +42,13 @@ export default {
   text-transform: uppercase;
   padding-bottom: 5%;
 }
-.video {
+.sound-video {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.subtitle {
+.sound-subtitle {
   font-size: 14px;
   text-transform: uppercase;
 

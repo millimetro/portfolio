@@ -1,10 +1,9 @@
 <template>
-  <div class="main">
-    <p>on this website</p>
-
+  <div class="eye-main">
+    <!-- <p>on this website</p> -->
     <Eyz />
-    <div class="testino">
-      <h2>You are not watched</h2>
+    <div class="eye-testino">
+      <!-- <h2>You are not watched</h2> -->
     </div>
   </div>
 </template>
@@ -16,18 +15,22 @@ export default { components: { Eyz } };
 
 
 
-<style scoped>
+<style lang="scss">
 @media (max-width: 768px) {
-  .main p {
-    font-size: 12px;
-    text-transform: uppercase;
+  .eye-main {
+    p {
+      font-size: 12px;
+      text-transform: uppercase;
+    }
   }
-  .testino h2 {
-    font-size: 12px;
-    text-transform: uppercase;
+  .eye-testino {
+    h2 {
+      font-size: 12px;
+      text-transform: uppercase;
+    }
   }
 }
-.main {
+.eye-main {
   display: flex;
   height: 100vh;
   width: 100%;
@@ -35,22 +38,19 @@ export default { components: { Eyz } };
   flex-direction: column;
   text-align: center;
   justify-content: center;
-}
-/* .testino {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-} */
 
-h2 {
-  font-size: 50px;
-  text-transform: uppercase;
+  p {
+    font-size: 16px;
+    text-transform: lowercase;
+    color: white;
+  }
 }
 
-p {
-  font-size: 16px;
-  text-transform: lowercase;
+.eye-testino {
+  h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+  }
 }
 </style>

@@ -1,15 +1,17 @@
 <template>
   <div>
-    <div class="container">
-      <div class="txt-line"><p>Hi! My name is Millimetro</p></div>
-      <div class="txt-line">
+    <div class="about-container">
+      <div class="about-txt-line"><p>Hi! My name is Millimetro</p></div>
+      <div class="about-txt-line">
         <p>I am a graphic designer based in Italy</p>
       </div>
 
-      <div class="txt-line">
+      <div class="about-txt-line">
         <p>Contact me if you want to spice up your website :))</p>
       </div>
-      <div class="cta"><a href="mailto:ciao@millimetro.xyz">SAY HI :)</a></div>
+      <div class="about-cta">
+        <a href="mailto:ciao@millimetro.xyz">SAY HI :)</a>
+      </div>
     </div>
   </div>
 </template>
@@ -18,7 +20,7 @@
 export default {
   mounted() {
     const tl = gsap.timeline();
-    tl.from(".txt-line p", {
+    tl.from(".about-txt-line p", {
       duration: 1,
       delay: 0,
       y: 200,
@@ -29,7 +31,7 @@ export default {
     });
 
     // Dal basso verso l'alto
-    gsap.from(".cta", 2, {
+    gsap.from(".about-cta", 2, {
       y: "200",
       opacity: 0,
       ease: Expo.easeInOut,
@@ -40,27 +42,27 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss">
 @media (max-width: 768px) {
-  .container {
+  .about-container {
     padding: 0 10%;
     text-align: left;
-  }
 
-  .container .txt-line p {
-    font-size: 1.5em !important;
-    line-height: 1.2em;
-    padding: 7px 0px !important;
+    p {
+      font-size: 1.5em !important;
+      line-height: 1.2em;
+      padding: 7px 0px !important;
+    }
   }
 }
 
 @media (min-width: 900px) {
-  .cta {
+  .about-cta {
     display: none;
   }
 }
 
-body {
+.about-container {
   overflow: hidden;
   height: 100vh;
   width: 100%;
@@ -68,26 +70,25 @@ body {
   color: white;
 }
 
-/* CTA */
+/* CTA only mobile! */
 
-.cta {
+.about-cta {
   margin: 60px 20% 30px;
+  a {
+    text-decoration: none;
+    padding: 25px 50px;
+
+    display: block;
+    justify-content: center;
+
+    color: white;
+    background-color: blue;
+    /* border: 2px solid white; */
+    border-radius: 100%;
+  }
 }
 
-.cta a {
-  text-decoration: none;
-  padding: 25px 50px;
-
-  display: block;
-  justify-content: center;
-
-  color: white;
-  background-color: blue;
-  /* border: 2px solid white; */
-  border-radius: 100%;
-}
-
-.container {
+.about-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,16 +96,15 @@ body {
   flex-direction: column;
   height: 100vh;
   width: 100%;
-}
 
-.container .txt-line {
-  overflow: hidden;
-  margin-top: 20px;
-}
-
-.container .txt-line p {
-  overflow: hidden;
-  font-size: 1.5em;
-  line-height: 1.2em;
+  .about-txt-line {
+    overflow: hidden;
+    margin-top: 20px;
+    p {
+      overflow: hidden;
+      font-size: 1.5em;
+      line-height: 1.2em;
+    }
+  }
 }
 </style>
