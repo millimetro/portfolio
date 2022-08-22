@@ -19,12 +19,12 @@ export default {
 
   mounted() {
     //Dal basso verso l'alto
-    gsap.from(".main-wrapper", 2, {
-      y: "200",
+    gsap.from(".main-wrapper ", 2, {
+      y: "100",
       opacity: 0,
       ease: Expo.easeInOut,
       delay: 0,
-      stagger: 1,
+      stagger: 0.5,
     });
 
     // Cursor movement

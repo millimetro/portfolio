@@ -14,16 +14,16 @@ export default {
   },
   layout: "index",
 
-  mounted() {
-    //Dal basso verso l'alto
-    gsap.from(".paperino", 2, {
-      y: "100",
-      opacity: 0,
-      ease: Expo.easeInOut,
-      delay: 0,
-      stagger: 1,
-    });
-  },
+  // mounted() {
+  //   //Dal basso verso l'alto
+  //   gsap.from(".paperino", 2, {
+  //     y: "100",
+  //     opacity: 0,
+  //     ease: Expo.easeInOut,
+  //     delay: 0,
+  //     stagger: 1,
+  //   });
+  // },
 };
 </script>
 
