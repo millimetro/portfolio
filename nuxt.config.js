@@ -24,6 +24,12 @@ export default {
 
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.7.4/smooth-scrollbar.js'},
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.8/lottie.min.js'},
+
+
+      // Librerie per blocchettino__loader
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js' },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js'},
+
     ]
   },
 

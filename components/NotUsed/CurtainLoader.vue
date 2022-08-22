@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     <div class="loader-wrap">
       <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
@@ -127,4 +127,4 @@ span {
     font-size: 6px;
   }
 }
-</style>
+</style> -->

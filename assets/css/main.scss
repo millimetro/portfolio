@@ -54,9 +54,14 @@ a:visited {
   // transition: 0.1s;
   width: 25px;
   height: 25px;
-  border-radius: 50%;
-  pointer-events: none;
 
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+
+  pointer-events: none;
   z-index: 1000;
 
   -webkit-transition: all 0.1s ease;
