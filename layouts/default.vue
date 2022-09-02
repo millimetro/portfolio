@@ -14,13 +14,24 @@ import NavTop from "../components/NavTop.vue";
 export default {
   components: { NavTop },
 
-  mounted() {
-    // Cursor movement
+  // mounted() {
+  //   // Cursor movement
+  //   const cursor = document.querySelector(".cursor");
+  //   document.addEventListener("mousemove", (e) => {
+  //     cursor.style.left = e.pageX + "px";
+  //     cursor.style.top = e.pageY + "px";
+  //   });
+  // },
+
+  data() {
     const cursor = document.querySelector(".cursor");
     document.addEventListener("mousemove", (e) => {
       cursor.style.left = e.pageX + "px";
       cursor.style.top = e.pageY + "px";
     });
+    return {
+      cursor,
+    };
   },
 };
 </script>
