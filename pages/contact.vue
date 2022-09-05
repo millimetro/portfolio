@@ -4,7 +4,7 @@
       <div class="contact-mobile">
         <!-- <h1>IG</h1> -->
 
-        <a href="http://instragram.com/millimetro_">@millimetro_</a>
+        <a href="https://instragram.com/millimetro_">@millimetro_</a>
 
         <!-- <h1>Email</h1> -->
         <a href="mailto:ciao@millimetro.xyz">ciao@millimetro.xyz</a>
@@ -20,7 +20,7 @@
         <div class="contact-instagram contact-block">
           <h1 class="contact-present">instagram</h1>
           <h1 class="contact-hover">
-            <a href="http://instragram.com/millimetro_">@millimetro_</a>
+            <a href="https://instragram.com/millimetro_">@millimetro_</a>
           </h1>
         </div>
       </div>
