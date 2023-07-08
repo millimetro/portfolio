@@ -11,17 +11,10 @@
 
 <script>
 import NavTop from "../components/NavTop.vue";
+
 export default {
   components: { NavTop },
 
-  // mounted() {
-  //   // Cursor movement
-  //   const cursor = document.querySelector(".cursor");
-  //   document.addEventListener("mousemove", (e) => {
-  //     cursor.style.left = e.pageX + "px";
-  //     cursor.style.top = e.pageY + "px";
-  //   });
-  // },
 
   mounted() {
     const cursor = document.querySelector(".cursor");
@@ -30,7 +23,12 @@ export default {
       cursor.style.top = e.pageY + "px";
     });
   },
+
+  
+
 };
+
+
 </script>
 
 <style lang="scss">
