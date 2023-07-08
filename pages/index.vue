@@ -1,65 +1,38 @@
 <template>
-  <div class="main">
-    <div class="content">
-      <!-- <h1>millimetro_</h1> -->
-      <img src="../assets/gifs/milly_rotolo-1.gif" />
-      <a href="http://instagram.com/millimetro_" target="blank">instagram</a>
-    </div>
+  <div id="IndexPage" class="paperino">
+    <NavMain class="main" />
   </div>
 </template>
 
 <script>
+import NavMain from "../components/NavMain.vue";
+
 export default {
   name: "IndexPage",
+  components: {
+    NavMain,
+  },
+  layout: "index",
+
+  // mounted() {
+  //   //Dal basso verso l'alto
+  //   gsap.from(".paperino", 2, {
+  //     y: "100",
+  //     opacity: 0,
+  //     ease: Expo.easeInOut,
+  //     delay: 0,
+  //     stagger: 1,
+  //   });
+  // },
 };
 </script>
 
 <style lang="scss">
 @import "../assets/css/main.scss";
-body {
-  font-family: "Mattone-150";
-  background-color: black;
-}
 
-.main {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .content {
-    // text-align: center;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 900px) {
+  .cursor {
+    display: none;
   }
-}
-
-img {
-  max-height: 90vh;
-
-  @media (max-width: 768px) {
-    max-height: 45vh;
-  }
-}
-
-a {
-  color: white;
-  font-size: 1.5em;
-  transition: 250ms ease-in-out;
-}
-
-h1 {
-  color: white;
-  font-size: 10em;
-  transition: 250ms ease-in-out;
-}
-
-h1:hover {
-  color: blue;
-  transition: 500ms ease-in-out;
-}
-
-a:hover {
-  color: red;
-  transition: 500ms ease-in-out;
 }
 </style>

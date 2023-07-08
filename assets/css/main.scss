@@ -1,7 +1,104 @@
 $blue: blue;
+$red: red;
+$green: #30d158;
 
+$white: white;
+$grey: grey;
+$black: black;
 
 @font-face {
-    font-family: 'Mattone-150';
-    src: url('@/assets/fonts/Mattone-150.otf');
-  }
+  font-family: "Mattone-150";
+  src: url("@/assets/fonts/Mattone-150.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  font-family: "Mattone-150";
+  background-color: $black;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  height: -webkit-fill-available;
+}
+
+// div {
+//   border: 1px solid white;
+// }
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: $white;
+}
+
+// .cursor {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   transform: translate(-50%, -50%);
+//   background-color: white;
+//   mix-blend-mode: difference;
+//   // transition: 0.1s;
+//   width: 25px;
+//   height: 25px;
+
+//   -webkit-border-radius: 50%;
+//   -khtml-border-radius: 50%;
+//   -moz-border-radius: 50%;
+//   -ms-border-radius: 50%;
+//   border-radius: 50%;
+
+//   pointer-events: none;
+//   z-index: 1000;
+
+//   -webkit-transition: all 0.1s ease;
+//   -moz-transition: all 0.1s ease;
+//   -ms-transition: all 0.1s ease;
+//   transition: all 0.1s ease;
+
+//   -webkit-transform: scale(1);
+//   -moz-transform: scale(1);
+//   -ms-transform: scale(1);
+//   transform: scale(1);
+// }
+
+// .hoverino:hover ~ .cursor {
+//   -webkit-transform: scale(4);
+//   -moz-transform: scale(4);
+//   -ms-transform: scale(4);
+//   transform: scale(4);
+// }
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  mix-blend-mode: difference;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1000;
+  transition: transform 0.2s ease-in-out;
+  transform: translate(-50%, -50%) scale(0.75); /* Updated transform property */
+}
+
+.hoverino:hover ~ .cursor {
+  transform: translate(-50%, -50%) scale(4); /* Adjusted transform property */
+}
+

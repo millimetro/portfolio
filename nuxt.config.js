@@ -2,6 +2,8 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'millimetro_',
@@ -16,6 +18,20 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js'},
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js'},
+
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.7.4/smooth-scrollbar.js'},
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.8/lottie.min.js'},
+
+
+      // Librerie per blocchettino__loader
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js' },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js'},
+
     ]
   },
 
@@ -41,5 +57,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+ 
+  server: {
+    host: '0' // default: localhost
   }
+  
 }

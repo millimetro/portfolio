@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.77 94.68">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 8.32px;
+        font-family: Mattone-150, Mattone;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <text class="cls-1" transform="translate(15.19 46.03) rotate(-80.94)">G</text>
+        <text class="cls-1" transform="translate(16.35 38.88) rotate(-68.79)">E</text>
+        <text class="cls-1" transform="translate(18.62 32.93) rotate(-57.24)">T</text>
+        <text class="cls-1" transform="translate(22.38 27.35) rotate(-49.58)"> </text>
+        <text class="cls-1" transform="matrix(0.7, -0.72, 0.72, 0.7, 23.63, 25.87)">I</text>
+        <text class="cls-1" transform="translate(25.08 24.06) rotate(-36.75)">N</text>
+        <text class="cls-1" transform="translate(31.39 19.61) rotate(-28.12)"> </text>
+        <text class="cls-1" transform="translate(32.94 18.58) rotate(-20.44)">T</text>
+        <text class="cls-1" transform="translate(38.8 16.26) rotate(-8.26)">O</text>
+        <text class="cls-1" transform="translate(46.58 15.12) rotate(5.36)">U</text>
+        <text class="cls-1" transform="translate(53.88 15.81) rotate(17.89)">C</text>
+        <text class="cls-1" transform="translate(60.26 17.8) rotate(30.46)">H</text>
+        <text class="cls-1" transform="matrix(0.78, 0.63, -0.63, 0.78, 66.67, 21.79)"> </text>
+        <text class="cls-1" transform="translate(68.37 22.59) rotate(49.84)">W</text>
+        <text class="cls-1" transform="matrix(0.48, 0.88, -0.88, 0.48, 74.86, 30.88)">I</text>
+        <text class="cls-1" transform="translate(76.11 32.83) rotate(69.42)">T</text>
+        <text class="cls-1" transform="translate(78.52 39.02) rotate(81.88)">H</text>
+        <text class="cls-1" transform="matrix(-0.01, 1, -1, -0.01, 79.39, 46.51)"> </text>
+        <text class="cls-1" transform="translate(79.67 48.36) rotate(99.59)">M</text>
+        <text class="cls-1" transform="translate(78.18 56.63) rotate(112.76)">E</text>
+        <text class="cls-1" transform="translate(75.56 62.53) rotate(120.16)"> </text>
+        <text class="cls-1" transform="translate(74.59 64.21) rotate(123.62)"> </text>
+        <text class="cls-1" transform="translate(73.57 65.84) rotate(128.88)">-</text>
+        <text class="cls-1" transform="matrix(-0.7, 0.72, -0.72, -0.7, 71.03, 68.92)"> </text>
+        <text class="cls-1" transform="matrix(-0.74, 0.67, -0.67, -0.74, 69.68, 70.31)"> </text>
+        <text class="cls-1" transform="matrix(-0.84, 0.55, -0.55, -0.84, 68.5, 71.77)">M</text>
+        <text class="cls-1" transform="matrix(-0.92, 0.4, -0.4, -0.92, 61.28, 76.19)">I</text>
+        <text class="cls-1" transform="translate(59.21 77.23) rotate(163.95)">L</text>
+        <text class="cls-1" transform="matrix(-1, 0.1, -0.1, -1, 53.53, 78.89)">L</text>
+        <text class="cls-1" transform="translate(47.56 79.36) rotate(-178.11)">I</text>
+        <text class="cls-1" transform="translate(45.26 79.57) rotate(-168.44)">M</text>
+        <text class="cls-1" transform="translate(37.04 77.8) rotate(-155.27)">E</text>
+        <text class="cls-1" transform="matrix(-0.81, -0.59, 0.59, -0.81, 31.23, 75.17)">T</text>
+        <text class="cls-1" transform="translate(25.85 71.28) rotate(-131.55)">R</text>
+        <text class="cls-1" transform="matrix(-0.47, -0.88, 0.88, -0.47, 21.12, 66.08)">O</text>
+        <text class="cls-1" transform="translate(17.56 58.97) rotate(-109.4)"> </text>
+        <text class="cls-1" transform="translate(16.9 57.15) rotate(-105.46)">:</text>
+        <text class="cls-1" transform="translate(16.21 54.77) rotate(-100.11)">)</text>
+        <path class="cls-2" d="M30.09,51.14A16.11,16.11,0,0,0,43,68.94c8.67,1.51,17.25-3.59,20.69-11.55A24,24,0,0,0,65,42.68c-.42-1.89-3.31-1.09-2.89.79,1.56,7.06-.51,15.29-6.59,19.64-5.73,4.09-13.83,4.36-18.91-.91A12.56,12.56,0,0,1,33,51.94c.28-1.89-2.61-2.71-2.89-.8Z"/>
+        <path class="cls-2" d="M34.69,30.37,35.05,37a1.5,1.5,0,1,0,3,0l-.36-6.67a1.54,1.54,0,0,0-1.5-1.5,1.52,1.52,0,0,0-1.5,1.5Z"/>
+        <path class="cls-2" d="M51.82,27.44v7.19a1.5,1.5,0,0,0,3,0V27.44a1.5,1.5,0,0,0-3,0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
