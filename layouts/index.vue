@@ -13,7 +13,8 @@
 
 <script>
 import NavTop from "../components/NavTop.vue";
-import News from "../components/News.vue";
+// import News from "../components/News.vue";
+
 export default {
   components: { NavTop, News },
 
