@@ -7,7 +7,7 @@
       </div>
 
       <div class="about-txt-line">
-        <p>Contact me if you want to spice up your website :))</p>
+        <p>Contact me if you want to spice up your website :)</p>
       </div>
       <!-- <div class="about-cta hoverino">
         <a href="mailto:ciao@millimetro.xyz">SAY HI :)</a>
