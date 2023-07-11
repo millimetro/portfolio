@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     <div class="about-cta hoverino">
       <a href="mailto:ciao@millimetro.xyz" class="hover-this"
@@ -6,10 +6,46 @@
       >
     </div>
   </div>
+</template> -->
+
+<template>
+  <div>
+    <div class="about-cta hoverino .BtnSticky">
+      <a :href="href" class="hover-this" target="_blank">
+        <span class="span-btn">{{ text }}</span>
+      </a>
+    </div>
+  </div>
 </template>
+
+<!-- <script>
+export default {
+  props: {
+    text: {
+      type: String,
+      required: true
+    },
+    href: {
+      type: String,
+      required: true
+    }
+  }
+};
+</script> -->
+
 
 <script>
 export default {
+  props: {
+    text: {
+      type: String,
+      required: true
+    },
+    href: {
+      type: String,
+      required: true
+    }
+  },
   mounted() {
     (function () {
       const link = document.querySelectorAll(".hover-this");

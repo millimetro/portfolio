@@ -3,6 +3,11 @@
     <div class="navMain-container">
       <ul>
         <li>
+          <nuxt-link to="projects" class="navMain-rolling-text"
+            >Projects</nuxt-link
+          >
+        </li>
+        <li>
           <a
             href="https://www.instagram.com/millimetro_/"
             target="blank"
@@ -10,14 +15,14 @@
             >Instagram</a
           >
         </li>
-        <li>
+        <!-- <li>
           <a
             href="https://giphy.com/channel/millimetro"
             target="blank"
             class="navMain-rolling-text"
             >Giphy</a
           >
-        </li>
+        </li> -->
         <!-- <li><nuxt-link to="sound">Sound Design</nuxt-link></li> -->
 
         <li>

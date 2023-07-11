@@ -3,16 +3,19 @@
     <div class="about-container">
       <div class="about-txt-line"><p>Hi! My name is Millimetro</p></div>
       <div class="about-txt-line">
-        <p>I am a graphic designer based in Italy</p>
+        <p>I am designer based in Italy</p>
+      </div>
+      <div class="about-txt-line">
+        <p>I'm in love with motion design, 3D and cool websites</p>
       </div>
 
-      <div class="about-txt-line">
-        <p>Contact me if you want to spice up your website :)</p>
-      </div>
+      <!-- <div class="about-txt-line">
+        <p>Contact me if you want to spice up your website</p>
+      </div> -->
       <!-- <div class="about-cta hoverino">
         <a href="mailto:ciao@millimetro.xyz">SAY HI :)</a>
       </div> -->
-      <BtnSticky />
+      <BtnSticky text="SAY HI :)" href="mailto:ciao@millimetro.xyz" />
     </div>
   </div>
 </template>
