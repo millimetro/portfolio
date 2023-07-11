@@ -53,12 +53,6 @@ export default {
     height: 100vh;
     padding: 0 10%;
     text-align: left;
-
-    p {
-      font-size: 1.5em !important;
-      line-height: 1.2em;
-      padding: 7px 0px !important;
-    }
   }
 }
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="about-container">
-      <div class="about-txt-line"><p>Latest project</p></div>
+      <div class="about-txt-line"><h4>Latest project</h4></div>
       <div class="about-txt-line"><p>ARCA Milano</p></div>
       <div class="tags_container">
         <div class="tag"><p>#3D Modeling</p></div>
@@ -73,12 +73,6 @@ export default {
     height: 100vh;
     padding: 0 10%;
     text-align: left;
-
-    p {
-      font-size: 1.5em !important;
-      line-height: 1.2em;
-      padding: 7px 0px !important;
-    }
   }
 }
 
@@ -169,11 +163,11 @@ export default {
 }
 
 .tag {
-  padding: 2px 10px;
+  padding: 5px 12px;
 }
 
 .tag p {
-  font-size: 0.70rem !important;
+  font-size: 0.70rem;
 }
   
 }
