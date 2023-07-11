@@ -1,16 +1,19 @@
 <template>
   <div id="IndexPage" class="paperino">
     <NavMain class="main" />
+    <News />
   </div>
 </template>
 
 <script>
 import NavMain from "../components/NavMain.vue";
+import News from "../components/News.vue";
 
 export default {
   name: "IndexPage",
   components: {
     NavMain,
+    News,
   },
   layout: "index",
 

@@ -4,7 +4,7 @@
 
     <Nuxt class="main" />
 
-    <News />
+    <!-- <News /> -->
 
     <div class="cursor"></div>
     <!-- <div class="paperOverlay"></div> -->
@@ -13,10 +13,10 @@
 
 <script>
 import NavTop from "../components/NavTop.vue";
-import News from "../components/News.vue";
+// import News from "../components/News.vue";
 
 export default {
-  components: { NavTop, News },
+  components: { NavTop },
 
   mounted() {
     //Dal basso verso l'alto
