@@ -10,7 +10,7 @@
       </div>
 
       <div class="image_wrapper">
-        <img src="@/static/arca_1.png" alt="arca_1" />
+        <img src="@/static/arca_1.png" alt="arca" />
       </div>
       
       <div class=".BtnSticky">
@@ -153,7 +153,7 @@ export default {
 
 .image_wrapper img {
   object-fit: contain;
-  height: max-content;
+  // height: max-content;
   width: 50vw;
 }
 
