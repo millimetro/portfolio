@@ -26,7 +26,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    const tl = gsap.timeline();
+    tl.from(".news-content", {
+      duration: 1,
+      delay: 0,
+      x: 200,
+      skewY: 20,
+      stagger: {
+        amount: 0.5,
+      },
+    });
+  },
+};
 </script>
 
 <style lang="scss">
