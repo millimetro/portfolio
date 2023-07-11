@@ -10,7 +10,7 @@
       </div>
 
       <div class="image_wrapper">
-        <img src="@/static/arca_1.png" />
+        <img src="@/static/arca_1.png" alt="arca_1" />
       </div>
       
       <div class=".BtnSticky">
